@@ -1,0 +1,12 @@
+
+inc/html5-qrcode/examples/
+inc/html5-qrcode/assets/
+inc/html5-qrcode/scripts/
+inc/html5-qrcode/scr/
+inc/html5-qrcode/test/
+inc/html5-qrcode/third_party/
+inc/html5-qrcode/transpiled/
+
+
+inc/html5-qrcode/.all-contributorsrc
+inc/html5-qrcode/.babelrc
