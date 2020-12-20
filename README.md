@@ -7,3 +7,4 @@ Add this code to GF HTML field
 ```
 <div id="qr-reader" style="width:100%" data-GfFieldID="input_1_1"></div>
 ```
+where input_1_1 is id of input field.

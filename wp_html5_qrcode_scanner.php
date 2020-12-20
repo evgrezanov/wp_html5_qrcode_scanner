@@ -3,8 +3,8 @@
 /**
  * Plugin Name: wp_html5_qrcode_scanner
  * Description: MVP for Worker.nu
- * Plugin URI: https://github.com/evgrezanov/
- * Version: 1.2.0
+ * Plugin URI: https://github.com/evgrezanov/wp_html5_qrcode_scanner
+ * Version: 1.2.1
  * Author: Evgeniy Rezanov
  * Author URI: https://github.com/evgrezanov/
  * 
@@ -13,7 +13,7 @@
 defined('ABSPATH') || exit;
 define( 'WGFF_QRScanner_URL', plugin_dir_url( __FILE__ ) );
 define( 'WGFF_QRScanner_PATH', plugin_dir_path( __FILE__ ) );
-define( 'WGFF_QRScanner_VERSION', '1.2.0' );
+define( 'WGFF_QRScanner_VERSION', '1.2.1' );
 
 
 class WGFF_QRScanner {

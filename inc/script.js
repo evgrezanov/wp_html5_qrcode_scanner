@@ -5,7 +5,7 @@ function docReady(fn) {
         || document.readyState === "interactive") {
         // call on next available tick
         setTimeout(fn, 1);
-        console.log('1');
+        //console.log('1');
     } else {
         document.addEventListener("DOMContentLoaded", fn);
         
@@ -40,8 +40,8 @@ docReady(function () {
             const html5QrCode = new Html5Qrcode("qr-reader");
 
             html5QrCode.start(
-                //{ facingMode: "environment" },     // retreived in the previous step.
-                cameraId,
+                { facingMode: "environment" },     
+                //cameraId, // retreived in the previous step.
                 {
                     fps: 10,    // sets the framerate to 10 frame per second
                     qrbox: 250  // sets only 250 X 250 region of viewfinder to
