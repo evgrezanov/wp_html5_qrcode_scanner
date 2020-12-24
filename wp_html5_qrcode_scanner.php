@@ -29,14 +29,15 @@ class WGFF_QRScanner {
             WGFF_QRScanner_URL . ('inc/html5-qrcode/minified/html5-qrcode.min.js'),
             [],
             WGFF_QRScanner_VERSION,
-            false
+            true
         );
 
         wp_enqueue_script(
             'script',
             WGFF_QRScanner_URL . ('inc/script.js'),
             ['html5-qrcode'],
-            WGFF_QRScanner_VERSION
+            WGFF_QRScanner_VERSION,
+            true
         );
         
     }
